@@ -1,22 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="bg-background min-h-screen flex flex-col items-center justify-center">
+      <header className="text-center">
+        <h1 className="text-4xl font-heading text-accent">¡Bienvenido a Re-pack!</h1>
+        <p className="mt-4 text-lg font-body text-primary">
+          Empaques reutilizables y sostenibles.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
