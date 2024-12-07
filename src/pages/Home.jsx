@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import Hero from '../components/Hero';
 import Productos from '../components/Productos';
 import Promociones from '../components/Promociones';
+import FloatingSocialIcons from '../components/FloatingSocialIcons';
 
 const Home = () => {
   const lastScrollPosition = useRef(0); // Usamos useRef para persistir el valor entre renderizados
@@ -28,7 +29,8 @@ const Home = () => {
         if (scrollPosition >= heroHeight && scrollPosition < productosTop) {
           // Desplazar a la sección de productos
           window.scrollTo({ top: productosTop, behavior: 'smooth' });
-        } else if (scrollPosition >= productosTop && scrollPosition < promocionesTop) {
+        } 
+        else if (scrollPosition >= productosTop && scrollPosition < promocionesTop) {
           // Desplazar a la sección de promociones
           window.scrollTo({ top: promocionesTop, behavior: 'smooth' });
         }
@@ -62,6 +64,7 @@ const Home = () => {
       <section id="hero" className="h-screen bg-[#93A267] flex justify-center items-center">
         <Hero />
       </section>
+      <FloatingSocialIcons></FloatingSocialIcons>
 
       {/* Productos */}
       <section id="productos">

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 import SweetAlert from "sweetalert2";
+import FloatingSocialIcons from "../components/FloatingSocialIcons";
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -49,6 +51,7 @@ const Contact = () => {
 
   return (
     <div className="h-screen flex justify-center items-center bg-[#FBFBFB] px-4">
+      <FloatingSocialIcons></FloatingSocialIcons>
       <form
         className="bg-white p-6 rounded-lg shadow-lg w-full max-w-2xl"
         onSubmit={handleSubmit}

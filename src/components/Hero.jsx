@@ -10,7 +10,7 @@ const Hero = () => {
           <p className="text-lg md:text-xl mb-6">
             Empaques reutilizables y biodegradables para un futuro sostenible.
           </p>
-          <a href="#services" className="bg-[#93A267] text-white py-2 px-6 rounded-lg hover:bg-[#7c8e5e] transition duration-300">
+          <a href="#productos" className="bg-[#93A267] text-white py-2 px-6 rounded-lg hover:bg-[#7c8e5e] transition duration-300">
             Descubre nuestros productos
           </a>
         </div>

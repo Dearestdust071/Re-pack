@@ -7,28 +7,51 @@ import 'swiper/css/pagination';
 const Promociones = () => {
   const promotions = [
     {
-      src: 'https://via.placeholder.com/400x400.png?text=Promoci%C3%B3n+1',
+      src: '/promotions/P1.png',
       alt: 'Promoción 1',
-      title: '🔥 Promoción de Invierno',
-      description: 'Descuento del 20% en todos nuestros productos ecológicos. ¡Aprovecha antes de que se acabe!',
+      title: '🌱 Bolsa Ecológica',
+      description: '¡Compra 2 y llévate 3! 🛍️ Aprovecha esta oferta sostenible y lleva más por menos. ♻️ ¡Solo por tiempo limitado!',
     },
     {
-      src: 'https://via.placeholder.com/400x400.png?text=Promoci%C3%B3n+2',
+      src: '/promotions/P2.png',
       alt: 'Promoción 2',
-      title: '🌟 Compra 2, lleva 3',
-      description: 'Compra cualquier producto y llévate otro gratis. ¡Solo por tiempo limitado!',
-    },
+      title: '❄️ Promoción de Invierno',
+      description: '¡Aprovecha nuestra oferta de empaques ecológicos! ♻️ Materiales 100% sostenibles para que tu compra sea aún más verde 🌱 ¡Solo por tiempo limitado!',
+    },    
     {
-      src: 'https://via.placeholder.com/400x400.png?text=Promoci%C3%B3n+3',
+      src: '/promotions/P3.png',
       alt: 'Promoción 3',
-      title: '🎁 Set Eco-Friendly',
-      description: 'Compra un set y recibe un regalo exclusivo. ¡Solo hasta agotar existencias!',
+      title: '🌿 Descuento por Sostenibilidad',
+      description: 'Compra un set y recibe un regalo exclusivo 🌟 ¡Apoya el medio ambiente y disfruta de sorpresas! 🎉 ¡Hasta agotar existencias!',
     },
     {
-      src: 'https://via.placeholder.com/400x400.png?text=Promoci%C3%B3n+4',
+      src: '/promotions/P4.png',
       alt: 'Promoción 4',
-      title: '💚 Descuento por Sostenibilidad',
-      description: 'Recibe un 15% de descuento al reciclar tu empaque de vuelta con nosotros.',
+      title: '♻️ Set Eco-friendly',
+      description: 'Recibe un 15% de descuento al reciclar tu empaque con nosotros. ♻️ ¡Cuida el planeta y ahorra mientras lo haces! 💚',
+    },{
+      src: '/promotions/P1.png',
+      alt: 'Promoción 1',
+      title: '🌱 Bolsa Ecológica',
+      description: '¡Compra 2 y llévate 3! 🛍️ Aprovecha esta oferta sostenible y lleva más por menos. ♻️ ¡Solo por tiempo limitado!',
+    },
+    {
+      src: '/promotions/P2.png',
+      alt: 'Promoción 2',
+      title: '❄️ Promoción de Invierno',
+      description: '¡Aprovecha nuestra oferta de empaques ecológicos! ♻️ Materiales 100% sostenibles para que tu compra sea aún más verde 🌱 ¡Solo por tiempo limitado!',
+    },    
+    {
+      src: '/promotions/P3.png',
+      alt: 'Promoción 3',
+      title: '🌿 Descuento por Sostenibilidad',
+      description: 'Compra un set y recibe un regalo exclusivo 🌟 ¡Apoya el medio ambiente y disfruta de sorpresas! 🎉 ¡Hasta agotar existencias!',
+    },
+    {
+      src: '/promotions/P4.png',
+      alt: 'Promoción 4',
+      title: '♻️ Set Eco-friendly',
+      description: 'Recibe un 15% de descuento al reciclar tu empaque con nosotros. ♻️ ¡Cuida el planeta y ahorra mientras lo haces! 💚',
     },
   ];
 

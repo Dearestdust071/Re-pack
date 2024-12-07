@@ -16,13 +16,10 @@ const Footer = () => {
 
         <div className="flex justify-center items-center space-x-4 mt-4">
           <p className="text-lg font-semibold">Síguenos:</p>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#93A267]">
+          <a href="https://www.facebook.com/share/1AkmhpeCEX/?" target="_blank" rel="noopener noreferrer" className="hover:text-[#93A267]">
             <FaFacebookF size={32} />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#93A267]">
-            <FaTwitter size={32} />
-          </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#93A267]">
+          <a href="https://www.instagram.com/repack2024/profilecard/?igsh=NWdtNmFjb2NzOWs1" target="_blank" rel="noopener noreferrer" className="hover:text-[#93A267]">
             <FaInstagram size={32} />
           </a>
         </div>

@@ -1,9 +1,11 @@
 import React from 'react';
 import { FaArrowDown } from 'react-icons/fa'; // Icono de flecha
-
+import FloatingSocialIcons from '../components/FloatingSocialIcons';
 const AboutUs = () => {
   return (
     <div className="bg-[#FBFBFB]">
+
+    <FloatingSocialIcons></FloatingSocialIcons>
       {/* Sección de encabezado con imagen de fondo */}
       <section
         id="hero" // ID para el scroll
